@@ -146,3 +146,29 @@ header{
     width: 300px;
 }
 /* Hot Deal ! Sale Up To 25% Off style end  */
+/* Instagram section style  start */
+.instagram{
+    margin: 130px 200px;
+    text-align: center;
+}
+.instagram-title{
+    color: #272727;
+font-size: 40px;
+font-weight: 800;
+}
+.instagram-description{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding: 25px 50px;
+}
+.instagram-pic{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.instagram-pic-item{
+    width: 250px;
+}
+/* Instagram section style  end */
