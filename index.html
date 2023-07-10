@@ -10,9 +10,29 @@
     <title>Flower Shop</title>
 </head>
 <body>
-    <!-- header start  -->
+    <!-- nav start  -->
+        <nav>
+            <h1>Flower Shop</h1>
+            <div>
+                <ul class="nav-item">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Featured">Featured</a></li>
+                    <li class="social"><a>Social</a>
+                        <ul class="dropdown">
+                            <li><a target="_blank" href="https://www.facebook.com/">Facebook</a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/">Instagram</a></li>
+                            <li><a target="_blank" href="https://twitter.com">Twitter</a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/">Linked In</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    <!-- nav end  -->
     <header>
-            <div class="header">
+        <!-- header section start  -->
+            <div class="header"id="home">
                 <div class="header-text">
                     <h1 class="header-title">Let's make beautiful flowers a part of your life.</h1>
                     <p class="header-description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.</p>
@@ -20,11 +40,11 @@
                 </div>
                 <img src="image/pngwing 10.png" alt="" class="header-pic">
             </div>
+            <!-- header section end  -->
     </header>
-    <!-- header end  -->
     <main>
         <!-- Our Featured Flowers start  -->
-        <section class="featured-top">
+        <section class="featured-top" id="Featured">
             <h1 class="featured-title">Our Featured Flowers</h1>
             <p class="featured-descripion">It is a long established fact that a reader will be distracted by the readable <br> content of a page when looking at its layout.</p>
             <div class="featured-pic">
@@ -86,11 +106,11 @@
         </section>
         <!-- Instagram section end -->
         <!-- Get The Latest Deals start  -->
-        <section class="get">
+        <section class="get" id="contact">
             <h1 class="get-title">Get The Latest Deals</h1>
             <p class="get-description">$30 coupon for first shopping</p>
             <input type="text" placeholder="Enter your email here....">
-            <button class="btn">Subscribe</button>
+            <button class="btn">Submit</button>
         </section>
         <!-- Get The Latest Deals end  -->
     </main>

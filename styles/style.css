@@ -11,12 +11,73 @@
     padding: 20px 40px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 span{
     color: #E55473;
 }
 /* common style start */
-
+/* nav style start  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E55473;
+    height: 80px;
+    color: white;
+    font-weight: 800;
+    padding: 0px 200px;
+    position: sticky;
+    top: 0px;
+}
+nav h1{
+    font-size: 30px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+nav h1:hover{
+    font-size: 30px;
+    cursor: pointer;
+    color: #E55473;
+    background-color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+nav li{
+    list-style: none;
+    
+}
+nav a:hover{ 
+    color: #E55473;
+    background-color: white;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: #E55473;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dropdown li{
+    padding-bottom: 10px;
+}
+.social:hover .dropdown{
+    display: block;
+}
+/* nav style end  */
 
 /* header style start  */
 header{
@@ -206,6 +267,7 @@ footer{
     background-color: #111010;
     padding: 130px;
     text-align: center;
+    margin-top: 130px;
 }
 .footer-title{
     color: white;
