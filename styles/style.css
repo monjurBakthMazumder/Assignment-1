@@ -12,6 +12,9 @@
     border: none;
     color: white;
 }
+span{
+    color: #E55473;
+}
 /* common style start */
 
 
@@ -116,3 +119,30 @@ header{
     line-height: 35px;
 }
 /* Our Featured Flowers style end  */
+/* Hot Deal ! Sale Up To 25% Off style start  */
+.hot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 150px;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 100px 300px;
+}
+.hot-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+.hot-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 25px 0px 30px;
+}
+.hot-pic{
+    width: 300px;
+}
+/* Hot Deal ! Sale Up To 25% Off style end  */
